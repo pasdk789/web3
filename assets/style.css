@@ -706,3 +706,17 @@ html{scroll-behavior:smooth}body{background:#050607!important;color:var(--x-whit
 }
 
 @media(max-width:900px){.emblem-stage.cinematic-stage.xen-show-poster>.xen-mobile-hero-art{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:contain!important;z-index:2!important}}
+
+/* Final mobile media fix: single native video, poster attribute handles loading. */
+@media(max-width:900px){
+ .emblem-stage.cinematic-stage>.xenorra-living-video,
+ .emblem-stage.cinematic-stage>.xenorra-living-video.xen-video-failed{
+  display:block!important;position:absolute!important;inset:0!important;
+  width:100%!important;height:100%!important;object-fit:contain!important;
+  opacity:1!important;visibility:visible!important;z-index:2!important;
+  transform:none!important;filter:none!important;mix-blend-mode:normal!important;
+ }
+}
+@media(max-width:900px) and (prefers-reduced-motion:reduce){
+ .emblem-stage.cinematic-stage>.xenorra-living-video{display:block!important;}
+}
