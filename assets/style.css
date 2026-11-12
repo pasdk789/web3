@@ -574,3 +574,63 @@ html{scroll-behavior:smooth}body{background:#050607!important;color:var(--x-whit
  img,svg,video{max-width:100%}
 }
 @media(max-width:390px){.wrap{width:calc(100% - 32px)!important}.hero h1{font-size:clamp(40px,11vw,48px)!important}.hero-copy .actions{column-gap:17px!important}.emblem-stage.cinematic-stage{aspect-ratio:1.18!important}}
+
+
+/* 2026-11-12 — Mobile editorial system; desktop remains unchanged. */
+@media (max-width:899px){
+ html{scroll-padding-top:76px}
+ body{overflow-x:hidden!important}
+ *,*::before,*::after{box-sizing:border-box}
+ .topbar{position:relative;z-index:1000}
+ .topbar .nav{width:calc(100% - 40px)!important;min-height:70px!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:12px!important}
+ .topbar .brand{margin-right:auto!important;white-space:nowrap!important;font-size:15px!important;letter-spacing:.13em!important}
+ .topbar .hamburger{order:3!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;min-width:42px!important;min-height:42px!important;padding:8px!important;color:#eee!important;background:transparent!important;border:1px solid rgba(255,255,255,.2)!important;border-radius:0!important}
+ .topbar .xen-search-trigger{order:2!important;min-width:42px!important;min-height:42px!important;margin:0!important;justify-content:center!important;background:transparent!important;border-color:rgba(255,255,255,.2)!important}
+ .topbar .links{max-width:calc(100vw - 40px)!important;z-index:1002!important}
+ .hero-grid{padding:54px 0 58px!important}
+ .hero .eyebrow{font-size:10px!important;line-height:1.6!important;letter-spacing:.11em!important;max-width:35ch!important}
+ .hero h1{font-size:clamp(42px,10.8vw,68px)!important;line-height:1.08!important;letter-spacing:-.055em!important;max-width:12ch!important;margin:23px 0 22px!important;text-wrap:balance!important}
+ .hero .lead{font-size:clamp(15px,3.8vw,17px)!important;line-height:1.75!important;max-width:46ch!important;color:#c5c8ce!important}
+ .hero-copy .actions{display:grid!important;grid-template-columns:1fr!important;justify-items:start!important;align-items:start!important;gap:0!important;margin-top:31px!important;max-width:390px!important}
+ .hero-copy .actions .button{display:inline-flex!important;align-items:center!important;justify-content:flex-start!important;width:auto!important;max-width:100%!important;min-height:47px!important;padding:12px 0!important;margin:0!important;border:0!important;border-bottom:1px solid rgba(210,215,224,.23)!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;font-size:11px!important;font-weight:500!important;letter-spacing:.11em!important;text-transform:uppercase!important;line-height:1.45!important;color:#d7dbe0!important;white-space:normal!important;text-align:left!important}
+ .hero-copy .actions .button:first-child{color:#fff!important;border-bottom-color:rgba(235,238,242,.62)!important}
+ .emblem-stage.cinematic-stage{width:100%!important;aspect-ratio:1.1!important;margin:30px auto 0!important;overflow:hidden!important;max-width:560px!important;min-height:0!important}
+ .emblem-stage .xen-mobile-hero-art{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:contain!important;opacity:1!important;filter:grayscale(1) contrast(1.05) brightness(1.08)!important;mix-blend-mode:normal!important}
+ .hero-index{padding-bottom:20px!important}
+ .xen-ai-front{padding:78px 0 82px!important}
+ .xen-ai-head{gap:24px!important;margin-bottom:32px!important}
+ .xen-ai-head h2{font-size:clamp(34px,9vw,54px)!important;line-height:1.12!important;text-wrap:balance!important}
+ .xen-ai-flow{grid-template-columns:1fr!important;gap:0!important}
+ .xen-ai-step{padding:27px 0!important;min-height:0!important;border-right:0!important;border-bottom:1px solid rgba(255,255,255,.13)!important}
+ .xen-ai-step:last-child{border-bottom:0!important}
+ .xen-ai-front-foot{padding-top:30px!important}
+ .page-hero{padding:66px 0 65px!important}
+ .page-hero h1{font-size:clamp(40px,10vw,64px)!important;line-height:1.12!important;text-wrap:balance!important}
+ .chapter,.chapter-dark{padding-top:78px!important;padding-bottom:78px!important}
+ .chapter h2,.section-intro h2{line-height:1.13!important;text-wrap:balance!important}
+ .xen-editorial-atlas{margin-top:70px!important;margin-bottom:70px!important}
+ .atlas-image img{object-fit:contain!important}
+ .xnr-precision-chart,.xnr-supply-modern{min-width:0!important;max-width:100%!important}
+ .xnr-chart-row{align-items:flex-start!important;gap:10px!important}
+ .xnr-chart-row span{min-width:0!important;flex:1 1 180px!important}
+ .xnr-chart-row strong{flex:0 0 auto!important;max-width:100%!important;overflow-wrap:anywhere!important}
+ .xnr-allocation-architecture{width:calc(100% - 40px)!important;padding:32px 0!important;margin-left:auto!important;margin-right:auto!important}
+ .xaa-major{grid-template-columns:1fr 1fr!important}
+ .xaa-major strong{font-size:clamp(24px,6vw,39px)!important;overflow-wrap:anywhere!important}
+ .xaa-major span{font-size:9px!important;letter-spacing:.07em!important;overflow-wrap:anywhere!important}
+ .xaa-major>div{min-width:0!important}
+ .xaa-major>div+div{padding-left:13px!important}
+ .xaa-foundation-note{padding-top:24px!important}
+ .xen-search-overlay{padding:12px!important;align-items:flex-start!important}
+ .xen-search-panel{width:100%!important;max-height:calc(100dvh - 24px)!important;overflow:hidden!important}
+ #xen-search-results{max-height:calc(100dvh - 155px)!important}
+}
+@media(max-width:390px){
+ .topbar .nav{width:calc(100% - 32px)!important;gap:8px!important}
+ .topbar .brand{font-size:13px!important;letter-spacing:.08em!important}
+ .topbar .brand img{width:25px!important;height:25px!important}
+ .hero-grid{padding-top:44px!important}
+ .hero h1{font-size:clamp(39px,10.8vw,44px)!important}
+ .emblem-stage.cinematic-stage{aspect-ratio:1.05!important}
+}
+@media(prefers-reduced-motion:reduce){.hero-etch,.quantum-field{animation:none!important}}
