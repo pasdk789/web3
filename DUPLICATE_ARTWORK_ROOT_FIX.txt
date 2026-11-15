@@ -1,0 +1,1 @@
+Removed conflicting historical artwork CSS links and installed a single rendering layer for 18 pages. Preserved one real image element per hero. Frontpage and forum included. Browser rendering has not been verified. Upload full extracted package, not ZIP.

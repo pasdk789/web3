@@ -1,0 +1,1 @@
+Forum image is now embedded directly inside forum.html to prevent broken image URLs on Vercel. The normal WebP asset is also retained. Upload forum.html to the GitHub repository root and redeploy. This change is scoped to the Forum; other pages remain unchanged.
