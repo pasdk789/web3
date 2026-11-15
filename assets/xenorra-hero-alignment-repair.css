@@ -1,0 +1,26 @@
+
+/* Keep the original text-over-image hero composition at every viewport. */
+html body .xen-painted-hero{position:relative!important;isolation:isolate!important;background-image:none!important;--xen-art:none!important;overflow:hidden!important}
+html body .xen-painted-hero::before,html body .xen-painted-hero::after{content:none!important;display:none!important;background-image:none!important}
+html body .xen-painted-hero>.xen-direct-art{
+display:block!important;position:absolute!important;inset:0!important;
+width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;
+object-fit:cover!important;object-position:center center!important;
+opacity:1!important;visibility:visible!important;filter:none!important;
+transform:none!important;mix-blend-mode:normal!important;z-index:0!important;
+}
+html body .xen-painted-hero>.xen-direct-shade{
+display:block!important;position:absolute!important;inset:0!important;z-index:1!important;
+background:linear-gradient(90deg,rgba(5,6,7,.92) 0%,rgba(5,6,7,.65) 43%,rgba(5,6,7,.10) 100%)!important;pointer-events:none!important
+}
+html body .xen-painted-hero>.wrap,html body .xen-painted-hero>.community-wrap{
+position:relative!important;z-index:2!important
+}
+@media(max-width:800px){
+html body .xen-painted-hero{display:block!important;min-height:clamp(480px,75svh,780px)!important;max-height:none!important}
+html body .xen-painted-hero>.xen-direct-art{object-position:58% center!important}
+html body .xen-painted-hero>.xen-direct-shade{background:linear-gradient(90deg,rgba(5,6,7,.91),rgba(5,6,7,.54))!important}
+html body .xen-painted-hero>.wrap,html body .xen-painted-hero>.community-wrap{
+width:calc(100% - 40px)!important;max-width:680px!important;margin-inline:auto!important;
+}
+}

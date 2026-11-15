@@ -1,0 +1,1 @@
+Restored text-over-image hero alignment on desktop and mobile. Exactly one hero image element on each of 18 illustrated pages. All image file paths verified inside ZIP. Removed historic direct image CSS fix links. Live browser verification not completed.\n
