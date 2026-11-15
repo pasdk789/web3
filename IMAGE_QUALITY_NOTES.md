@@ -1,0 +1,1 @@
+18 images were enlarged from 1670x460 to 3340x920 using Lanczos and restrained sharpening. This does not restore native detail lost when the scenes were cropped from a collage. Genuine independently rendered high-resolution artwork is still needed. No browser rendering test has been completed.

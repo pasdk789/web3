@@ -1,0 +1,10 @@
+
+/* Shared Xenorra brand lockup: identical colour on every page */
+.brand img,.footer-brand-lockup img,.footer-brand img,
+.site-logo img,.header-logo img,img[src*="xenorra-brand-emblem-fixed.png"]{
+ filter:none!important;
+ mix-blend-mode:normal!important;
+ opacity:1!important;
+ object-fit:contain!important;
+ image-rendering:auto!important;
+}

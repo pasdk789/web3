@@ -1,0 +1,11 @@
+XENORRA VERCEL / GITHUB DEPLOYMENT
+
+Upload ALL files and the assets/ directory together. index.html must be at the deployed project root.
+Do not upload the ZIP directly into GitHub.
+
+Files: 20 HTML pages, 83 assets, 20 bespoke artwork images.
+Missing static references detected: 0
+
+
+
+If images still return 404 after upload, check the deployed commit and Vercel Root Directory setting.
