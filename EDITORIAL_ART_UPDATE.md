@@ -1,0 +1,1 @@
+Homepage THE IDEA section now uses a dedicated dark observatory illustration, including a rear-view hooded figure with no visible face. The original live HTML text remains intact. Responsive CSS is included. Other page images are unchanged in this release. No browser rendering test was completed.

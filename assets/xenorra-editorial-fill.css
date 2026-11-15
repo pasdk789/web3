@@ -1,0 +1,30 @@
+
+/* Xenorra editorial art — original text remains accessible HTML. */
+.page-index .xen-illustrated-section {
+  position:relative; isolation:isolate;
+  min-height:clamp(410px,42vw,640px);
+  display:flex; align-items:center;
+  background:#07090b !important;
+  overflow:hidden;
+}
+.page-index .xen-illustrated-section::before {
+  content:""; position:absolute; inset:0; z-index:-2;
+  background:url("xenorra-idea-observatory.webp") center center / cover no-repeat;
+}
+.page-index .xen-illustrated-section::after {
+  content:""; position:absolute; inset:0; z-index:-1;
+  background:linear-gradient(90deg,#07090b 0%,rgba(7,9,11,.96) 24%,rgba(7,9,11,.62) 45%,transparent 78%),linear-gradient(0deg,rgba(7,9,11,.38),transparent 30%);
+}
+.page-index .xen-illustrated-grid {width:100%;min-height:inherit!important;grid-template-columns:minmax(0,1fr)!important;align-items:center;}
+.page-index .xen-illustrated-copy {max-width:560px;position:relative;z-index:1;}
+@media(max-width:760px){
+ .page-index .xen-illustrated-section{min-height:560px;align-items:flex-start;padding:65px 0 245px;}
+ .page-index .xen-illustrated-section::before{background-position:65% bottom;background-size:auto 100%;opacity:.78;}
+ .page-index .xen-illustrated-section::after{background:linear-gradient(180deg,#07090b 0%,rgba(7,9,11,.96) 29%,rgba(7,9,11,.38) 70%,#07090b 100%);}
+ .page-index .xen-illustrated-copy{max-width:min(100%,520px)}
+}
+/* Requested removal: preserve the 'A network people can question' copy without the rejected observatory artwork. */
+.page-index .xen-illustrated-section{min-height:360px!important;background:#090a0b!important}
+.page-index .xen-illustrated-section::before{background:none!important}
+.page-index .xen-illustrated-section::after{background:none!important}
+@media(max-width:760px){.page-index .xen-illustrated-section{min-height:300px!important;padding:48px 0!important}}

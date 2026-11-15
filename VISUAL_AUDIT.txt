@@ -1,0 +1,22 @@
+ai.html: xenorra-bespoke-ai.webp
+dashboard.html: xenorra-bespoke-dashboard.webp
+developers.html: xenorra-bespoke-developers.webp
+events.html: xenorra-bespoke-events.webp
+forum.html: xenorra-bespoke-forum.webp
+governance.html: xenorra-bespoke-governance.webp
+identity.html: xenorra-bespoke-identity.webp
+index.html: xenorra-bespoke-index.webp
+login.html: (no bespoke image; utility page)
+members.html: xenorra-bespoke-members.webp
+notifications.html: xenorra-bespoke-notifications.webp
+profile.html: xenorra-bespoke-profile.webp
+protocol.html: xenorra-bespoke-protocol.webp
+register.html: (no bespoke image; utility page)
+research.html: xenorra-bespoke-research.webp
+roadmap.html: xenorra-bespoke-roadmap.webp
+settings.html: xenorra-bespoke-settings.webp
+technology.html: xenorra-bespoke-technology.webp
+thread.html: xenorra-bespoke-thread.webp
+xnr.html: xenorra-bespoke-xnr.webp
+
+Two artworks replaced (research and governance). Layout CSS revised site-wide. Remaining artwork requires individual review; not claimed as fully repainted.

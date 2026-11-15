@@ -1,0 +1,1 @@
+18 separate original image renders replace the 18 contact-sheet-derived illustrations. These are new similar-theme compositions, NOT pixel-perfect recreations of the old scenes. Native resolutions range from approximately 1672 to 2172 pixels wide. No artificial 4K claims. Website browser validation not completed.

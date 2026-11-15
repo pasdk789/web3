@@ -1,0 +1,26 @@
+/* Homepage editorial section: restore the shared content gutter. */
+.page-index .xen-illustrated-section .wrap.xen-illustrated-grid {
+  box-sizing:border-box!important;
+  width:min(calc(100% - 96px), 1260px)!important;
+  max-width:1260px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  padding-left:0!important;
+  padding-right:0!important;
+}
+.page-index .xen-illustrated-section .xen-illustrated-copy {
+  width:100%;max-width:590px!important;
+  margin:0!important;
+}
+@media (max-width:780px) {
+ .page-index .xen-illustrated-section .wrap.xen-illustrated-grid {
+   width:calc(100% - 40px)!important;
+ }
+ .page-index .xen-illustrated-section .xen-illustrated-copy h2 {
+   font-size:clamp(32px,8vw,52px)!important;
+   overflow-wrap:normal;
+ }
+}
+@media (max-width:390px) {
+ .page-index .xen-illustrated-section .wrap.xen-illustrated-grid {width:calc(100% - 32px)!important;}
+}

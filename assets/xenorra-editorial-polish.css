@@ -1,0 +1,11 @@
+
+:root {--xen-page-gutter:clamp(22px,5vw,96px);}
+html,body{max-width:100%;overflow-x:clip;}
+.page-hero .wrap{width:min(100% - 2*var(--xen-page-gutter),1440px);margin-inline:auto;}
+.page-hero h1{max-width:13ch;overflow-wrap:normal;}
+.page-hero p{max-width:62ch;}
+@media(max-width:760px){
+.page-hero .wrap{width:calc(100% - 40px);}
+.page-hero h1{font-size:clamp(36px,9vw,64px);}
+.page-hero{background-position:60% center;}
+}

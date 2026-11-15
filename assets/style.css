@@ -720,3 +720,47 @@ html{scroll-behavior:smooth}body{background:#050607!important;color:var(--x-whit
 @media(max-width:900px) and (prefers-reduced-motion:reduce){
  .emblem-stage.cinematic-stage>.xenorra-living-video{display:block!important;}
 }
+
+/* Editorial illustration refresh: intentionally monochrome, no video */
+.emblem-stage.cinematic-stage{position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;background:transparent;min-height:410px}
+.xen-handdrawn-hero{display:block;width:100%;height:auto;max-height:650px;object-fit:contain;filter:grayscale(1);mix-blend-mode:screen}
+.xen-illustrated-section{padding:clamp(50px,8vw,110px) 0;background:#090909;border-block:1px solid #202020}
+.xen-illustrated-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,6vw,90px);align-items:center}
+.xen-illustrated-grid>img{display:block;width:100%;height:auto;border:1px solid #222;filter:grayscale(1)}
+.xen-illustrated-copy h2{font-size:clamp(2rem,4vw,4.5rem);line-height:1.08;letter-spacing:-.045em;margin:18px 0}
+.xen-illustrated-copy p{max-width:440px;color:#b8b8b8;line-height:1.7;margin-bottom:24px}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr!important}.emblem-stage.cinematic-stage{min-height:0;margin-top:22px}.xen-handdrawn-hero{max-height:420px}.xen-illustrated-grid{grid-template-columns:1fr}.xen-illustrated-grid>img{max-height:460px;object-fit:cover}}
+@media(max-width:560px){.xen-handdrawn-hero{max-height:320px}.xen-illustrated-section{padding:46px 0}.xen-illustrated-grid>img{max-height:320px}}
+@media(prefers-reduced-motion:reduce){.xen-handdrawn-hero{animation:none!important}}
+
+/* Xenorra editorial refinement — 2026-11-15 */
+@media(min-width:901px){
+ .hero .wrap.hero-grid{width:min(100% - 64px,1600px)!important;max-width:1600px!important;display:grid!important;grid-template-columns:minmax(420px,.82fr) minmax(0,1.18fr)!important;gap:clamp(8px,1.5vw,24px)!important;align-items:center!important;min-height:610px!important}
+ .hero .hero-copy{max-width:690px!important;position:relative;z-index:4}
+ .hero .emblem-stage.cinematic-stage{width:100%!important;min-height:520px!important;height:clamp(520px,48vw,720px)!important;overflow:visible!important;display:flex!important;align-items:center!important;justify-content:flex-start!important;margin-left:-4%!important}
+ .hero .xen-handdrawn-hero{width:112%!important;max-width:none!important;height:100%!important;max-height:none!important;object-fit:contain!important;object-position:left center!important}
+}
+.xen-nav .xen-forum-nav{font-size:11px!important;letter-spacing:.14em!important;text-transform:uppercase!important;border:1px solid #555!important;border-radius:2px;padding:10px 13px!important;white-space:nowrap;color:#eee!important;transition:background .2s,border-color .2s}
+.xen-nav .xen-forum-nav span{opacity:.55;margin-left:5px}.xen-nav .xen-forum-nav:hover{background:#1b1b1b;border-color:#aaa!important}
+.xen-feature-illustration{padding:clamp(60px,9vw,135px) 0;background:#070707;border-top:1px solid #252525}
+.xen-feature-illustration-grid{display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;gap:clamp(24px,5vw,90px)}
+.xen-feature-illustration-copy h2{font-size:clamp(38px,5vw,78px);line-height:1.03;letter-spacing:-.05em;margin:24px 0}
+.xen-feature-illustration-copy p{max-width:480px;font-size:clamp(16px,1.4vw,20px);line-height:1.65;color:#b7b7b7}
+.xen-feature-illustration-grid img{width:100%;height:auto;display:block;filter:grayscale(1)}
+@media(max-width:900px){.hero .emblem-stage.cinematic-stage{height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:1.4!important;margin-top:8px!important}.hero .xen-handdrawn-hero{width:100%!important;height:100%!important;max-height:none!important;object-fit:contain!important}.xen-feature-illustration-grid{grid-template-columns:1fr}.xen-feature-illustration-grid img{max-height:450px;object-fit:contain}.xen-nav .xen-forum-nav{display:block;width:fit-content;margin:8px 12px}}
+@media(max-width:560px){.hero .emblem-stage.cinematic-stage{aspect-ratio:1.25!important}.xen-feature-illustration-copy h2{font-size:38px}.xen-feature-illustration{padding:55px 0}}
+
+/* Brand consistency: one original Xenorra mark, unfiltered and white. */
+.brand img,.footer-brand-lockup img{filter:none!important;object-fit:contain!important}
+.hero .xen-handdrawn-hero{filter:none!important;mix-blend-mode:normal!important}
+@media(min-width:901px){.hero .emblem-stage.cinematic-stage{overflow:hidden!important}.hero .xen-handdrawn-hero{object-fit:cover!important;object-position:57% center!important;width:100%!important}}
+@media(max-width:900px){.hero .xen-handdrawn-hero{object-fit:cover!important;object-position:60% center!important}}
+
+/* 2026-11-15: centered XNR supply presentation and distinct homepage artwork */
+.xnr-precision-chart, .xnr-precision-chart.xnr-supply-modern {box-sizing:border-box!important;width:min( calc(100% - 2 * clamp(24px,7vw,120px)), 1320px)!important;max-width:1320px!important;margin-left:auto!important;margin-right:auto!important;display:grid!important;grid-template-columns:minmax(260px,.7fr) minmax(0,1.3fr)!important;gap:clamp(28px,5vw,85px)!important;align-items:center!important;padding:clamp(28px,4vw,65px) 0!important;}
+.xnr-precision-chart .xnr-ring-wrap{justify-self:center!important;min-width:0!important;}
+.xnr-precision-chart .xnr-chart-copy{min-width:0!important;width:100%!important;padding:0!important;}
+.xnr-precision-chart .xnr-chart-row{display:flex!important;align-items:baseline!important;justify-content:space-between!important;gap:20px!important;}
+.xnr-precision-chart .xnr-chart-row strong{white-space:nowrap!important;}
+.xen-bespoke-scene img[src*="xenorra-bespoke-index"]{object-position:center 48%!important;}
+@media(max-width:850px){.xnr-precision-chart,.xnr-precision-chart.xnr-supply-modern{width:calc(100% - 40px)!important;grid-template-columns:minmax(0,1fr)!important;gap:24px!important}.xnr-precision-chart .xnr-chart-row{flex-wrap:wrap!important}.xnr-precision-chart .xnr-chart-row strong{font-size:clamp(16px,4vw,22px)!important}}

@@ -1,0 +1,45 @@
+
+/* Xenorra visual restoration: painted artwork is integrated, never boxed. */
+.xen-unique-hero,.xen-editorial-atlas{display:none!important}
+.xen-painted-hero{position:relative;isolation:isolate;overflow:hidden;min-height:clamp(480px,62vw,730px)!important;background:#050607!important}
+.xen-painted-hero::before{content:"";position:absolute;inset:0 0 0 31%;z-index:0;background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.35) 32%,rgba(5,6,7,.06) 85%),var(--xen-art);background-size:cover;background-position:center;opacity:.82;pointer-events:none}
+.xen-painted-hero::after{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(0deg,#050607 0%,transparent 23%,transparent 78%,#050607 100%);pointer-events:none}
+.xen-painted-hero>.wrap,.xen-painted-hero>.community-wrap{position:relative;z-index:1}
+.xen-painted-hero h1,.xen-painted-hero .lead{max-width:min(620px,90vw)}
+.xen-painted-hero .lead{color:#d1d1d1;text-shadow:0 1px 12px #050607}
+.xen-forum-link{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;padding:9px 14px;border:1px solid #555;color:#f6f6f6!important;font-size:11px;letter-spacing:.11em;text-decoration:none;margin-left:12px}
+.xen-forum-link:hover{border-color:#eee}
+.brand img,.footer-brand-lockup img{object-fit:contain!important;object-position:center!important;border-radius:0!important}
+html,body{max-width:100%;overflow-x:clip}
+@media(max-width:900px){.xen-painted-hero{min-height:600px!important}.xen-painted-hero::before{inset:0;background-image:linear-gradient(90deg,rgba(5,6,7,.9),rgba(5,6,7,.45)),var(--xen-art);background-position:58% center;opacity:.75}.xen-forum-link{margin-left:4px;padding:8px 10px}}
+@media(max-width:600px){.xen-painted-hero{min-height:580px!important}.xen-painted-hero::before{background-image:linear-gradient(0deg,#050607 0%,rgba(5,6,7,.7) 45%,rgba(5,6,7,.3) 100%),var(--xen-art);background-position:60% center}.xen-painted-hero .wrap,.xen-painted-hero .community-wrap{padding-inline:clamp(20px,6vw,32px)!important}.xen-painted-hero h1{font-size:clamp(36px,9vw,58px)!important;overflow-wrap:anywhere}.xen-forum-link{font-size:10px;padding:6px 8px}.brand img{width:34px!important;height:34px!important}}
+
+/* Explicit art paths resolve relative to this stylesheet, not inline HTML. */
+body.page-thread .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-thread.webp")!important;}
+body.page-events .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-events.webp")!important;}
+body.page-notifications .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-notifications.webp")!important;}
+body.page-members .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-members.webp")!important;}
+body.page-research .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-research.webp")!important;}
+body.page-ai .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-ai.webp")!important;}
+body.page-forum .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-forum.webp")!important;}
+body.page-technology .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-technology.webp")!important;}
+body.page-xnr .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-xnr.webp")!important;}
+body.page-governance .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-governance.webp")!important;}
+body.page-roadmap .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-roadmap.webp")!important;}
+body.page-identity .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-identity.webp")!important;}
+body.page-protocol .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-protocol.webp")!important;}
+body.page-index .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-index.webp")!important;}
+body.page-settings .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-settings.webp")!important;}
+body.page-dashboard .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-dashboard.webp")!important;}
+body.page-developers .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-developers.webp")!important;}
+body.page-profile .xen-painted-hero::before{background-image:linear-gradient(90deg,#050607 0%,rgba(5,6,7,.38) 35%,rgba(5,6,7,.08) 90%),url("xenorra-bespoke-profile.webp")!important;}
+
+/* Prevent other inherited hero rules from concealing paintings. */
+.xen-painted-hero::before{display:block!important;visibility:visible!important;opacity:.94!important;background-size:cover!important;background-position:center center!important;}
+.xen-painted-hero::after{opacity:.75;}
+.xen-painted-hero{isolation:isolate!important;}
+.xen-painted-hero .hero-grid,.xen-painted-hero .hero-copy,.xen-painted-hero .hero-index{position:relative;z-index:2;}
+.topbar .brand img{content:url("xenorra-brand-emblem-fixed.png")!important;width:38px!important;height:38px!important;max-width:38px!important;max-height:38px!important;object-fit:contain!important;}
+.footer-brand-lockup img{content:url("xenorra-brand-emblem-fixed.png")!important;}
+@media(max-width:780px){.xen-painted-hero::before{background-position:62% center!important;}.topbar .brand img{width:32px!important;height:32px!important;}}
+@media(max-width:600px){.xen-painted-hero::before{opacity:.65!important;}.xen-painted-hero .hero-copy{max-width:100%;}}

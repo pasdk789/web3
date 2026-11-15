@@ -1,0 +1,8 @@
+/* Xenorra editorial artwork / responsive additions */
+.xen-new-art{position:relative;margin:0 auto 4rem;max-width:1440px;overflow:hidden;background:#101114;border-block:1px solid #333}
+.xen-new-art img{display:block;width:100%;height:clamp(260px,39vw,580px);object-fit:cover;object-position:center}
+.xen-new-art:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.22),transparent 55%);pointer-events:none}
+.xen-new-art-caption{position:absolute;left:clamp(20px,4vw,72px);bottom:22px;z-index:1;color:#f1ece6;font:500 11px/1.5 monospace;letter-spacing:.18em;text-shadow:0 2px 12px #000}
+.xen-handdrawn-hero{width:100%!important;height:100%!important;object-fit:cover!important;object-position:60% center!important}
+.cinematic-stage{overflow:hidden!important}
+@media(max-width:760px){.xen-new-art{margin-bottom:2.2rem}.xen-new-art img{height:270px;object-position:65% center}.xen-new-art-caption{font-size:9px;letter-spacing:.09em;bottom:14px}.xen-handdrawn-hero{object-position:72% center!important}}

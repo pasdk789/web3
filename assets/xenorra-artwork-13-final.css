@@ -1,0 +1,15 @@
+
+/* Artwork replacement release: one distinct asset per page */
+body.page-index .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-index.webp") !important; }
+body.page-technology .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-technology.webp") !important; }
+body.page-protocol .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-protocol.webp") !important; }
+body.page-ai .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-ai.webp") !important; }
+body.page-identity .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-identity.webp") !important; }
+body.page-research .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-research.webp") !important; }
+body.page-developers .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-developers.webp") !important; }
+body.page-xnr .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-xnr.webp") !important; }
+body.page-roadmap .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-roadmap.webp") !important; }
+body.page-governance .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-governance.webp") !important; }
+body.page-community .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-community.webp") !important; }
+body.page-forum .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-forum.webp") !important; }
+body.page-ecosystem .xen-painted-hero::before { background-image: linear-gradient(90deg,#050607 0%,rgba(5,6,7,.5) 38%,rgba(5,6,7,.12) 100%),url("xenorra-bespoke-ecosystem.webp") !important; }

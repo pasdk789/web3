@@ -1,0 +1,3 @@
+XENORRA VISUAL PACKAGE
+
+The website uses a dark monochrome orbital homepage image and coordinated editorial images across its existing 18 pages. The logo is supplied as scalable SVG and 4096px PNG. Textual edits remove unauthorized 20300/TM labels; existing technical copy remains substantially unchanged pending a fact-checked editorial review. Several page images are individually cropped from shared painted compositions, not independently commissioned illustrations. Interactive community features may rely on local browser storage and are not a production backend.

@@ -1,0 +1,11 @@
+
+/* Xenorra final art direction: deep charcoal, silver, and restrained editorial contrast */
+:root{--xen-editorial-ink:#070809;--xen-editorial-silver:#d6d7d9}
+.xen-bespoke-scene{border:0;background:#070809;max-width:100%;margin:0 auto 54px}
+.xen-bespoke-scene img{filter:grayscale(1);object-fit:cover;mask-image:linear-gradient(to bottom,#000 82%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent 100%)}
+.xen-bespoke-scene figcaption{display:none}
+.xen-handdrawn-hero{filter:grayscale(1) brightness(.88);object-fit:cover;object-position:center!important}
+@media(max-width:700px){.xen-bespoke-scene img{height:240px}.xen-handdrawn-hero{object-position:64% center!important}}
+
+/* Research-led editorial revision */
+.xen-evidence-section{padding:clamp(65px,8vw,140px) 0;background:#090a0c;border-block:1px solid #24272b;color:#f4f4f4}.xen-evidence-section h2{font-size:clamp(36px,5vw,72px);font-weight:400;letter-spacing:-.045em;line-height:1.1;max-width:800px;margin:20px 0}.xen-evidence-lead{font-size:clamp(17px,2vw,23px);line-height:1.55;color:#b6b9be;max-width:850px}.xen-evidence-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin:55px 0}.xen-evidence-grid article{border-top:1px solid #62666c;padding-top:22px}.xen-evidence-grid span{font:11px monospace;letter-spacing:.16em;color:#aeb2b8}.xen-evidence-grid h3{font-size:clamp(22px,2.5vw,32px);font-weight:400;line-height:1.2}.xen-evidence-grid p{color:#adb1b6;line-height:1.7}.xen-evidence-grid a{color:#eee;text-decoration:underline;text-underline-offset:5px}.xen-evidence-note{font-size:12px;color:#888;line-height:1.6}.xen-join{margin-top:16px}.xen-bespoke-scene img{filter:grayscale(1) brightness(.75) contrast(1.12)}.brand img{object-fit:contain;image-rendering:auto}@media(max-width:760px){.xen-evidence-grid{grid-template-columns:1fr;gap:25px}.xen-evidence-section{padding:60px 0}}

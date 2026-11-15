@@ -1,0 +1,1 @@
+All 18 artwork files replaced with 18 distinct compositions. Sixteen are individual panels from four generated composite sheets, so their native source resolution is limited; two are standalone renders. Images were resampled for display, not genuine full-resolution independent originals. Existing logo, HTML and forum preserved. Browser rendering not tested.

@@ -1,0 +1,8 @@
+XENORRA ARTWORK REVIEW
+
+Reviewed 20 HTML pages and 18 bespoke image files.
+Replaced Research image with an independent optical-science still life.
+Replaced Notifications image that contained embedded homepage-style text with a standalone abstract instrument image.
+The other 16 artworks are retained. Many still share mechanical rings, laboratories, and architectural themes; this is not a complete bespoke redesign.
+Homepage phrase A network people can question remains unchanged.
+No desktop/mobile browser render tests were performed.
