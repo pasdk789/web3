@@ -1,0 +1,65 @@
+
+/* Xenorra mobile artwork: show each complete composition rather than cropping it. */
+@media (max-width: 800px) {
+  .xen-painted-hero {
+    display:flex!important;
+    flex-direction:column!important;
+    height:auto!important;
+    max-height:none!important;
+    min-height:0!important;
+    overflow:visible!important;
+    background-image:none!important;
+    background-color:#08090b!important;
+  }
+  .xen-painted-hero::before,
+  .xen-painted-hero::after {
+    content:none!important;
+    display:none!important;
+  }
+  .xen-painted-hero > .xen-direct-art {
+    display:block!important;
+    position:relative!important;
+    inset:auto!important;
+    order:2!important;
+    width:100%!important;
+    height:auto!important;
+    max-width:100%!important;
+    max-height:none!important;
+    aspect-ratio:auto!important;
+    object-fit:contain!important;
+    object-position:center center!important;
+    opacity:1!important;
+    visibility:visible!important;
+    transform:none!important;
+    filter:none!important;
+    mix-blend-mode:normal!important;
+    z-index:1!important;
+  }
+  .xen-painted-hero > .xen-direct-shade {
+    display:none!important;
+  }
+  .xen-painted-hero > .wrap,
+  .xen-painted-hero > .community-wrap,
+  .xen-painted-hero > .hero-copy,
+  .xen-painted-hero > .page-hero-inner {
+    order:1!important;
+    position:relative!important;
+    z-index:3!important;
+    width:calc(100% - 40px)!important;
+    max-width:680px!important;
+    margin-inline:auto!important;
+    box-sizing:border-box!important;
+  }
+  .xen-painted-hero > canvas,
+  .xen-painted-hero > svg {
+    display:none!important;
+  }
+  .xen-painted-hero h1 {
+    max-width:100%!important;
+    overflow-wrap:break-word!important;
+  }
+  .xen-painted-hero .hero-copy,
+  .xen-painted-hero .lead {
+    max-width:100%!important;
+  }
+}

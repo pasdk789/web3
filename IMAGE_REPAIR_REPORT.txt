@@ -1,0 +1,21 @@
+Restored explicit IMG elements for 18 illustrated pages.
+thread.html -> assets/xenorra-bespoke-thread.webp
+events.html -> assets/xenorra-bespoke-events.webp
+notifications.html -> assets/xenorra-bespoke-notifications.webp
+members.html -> assets/xenorra-bespoke-members.webp
+research.html -> assets/xenorra-bespoke-research.webp
+ai.html -> assets/xenorra-bespoke-ai.webp
+forum.html -> assets/xenorra-bespoke-forum.webp
+technology.html -> assets/xenorra-bespoke-technology.webp
+xnr.html -> assets/xenorra-bespoke-xnr.webp
+governance.html -> assets/xenorra-bespoke-governance.webp
+roadmap.html -> assets/xenorra-bespoke-roadmap.webp
+identity.html -> assets/xenorra-bespoke-identity.webp
+protocol.html -> assets/xenorra-bespoke-protocol.webp
+index.html -> assets/xenorra-bespoke-index.webp
+settings.html -> assets/xenorra-bespoke-settings.webp
+dashboard.html -> assets/xenorra-bespoke-dashboard.webp
+developers.html -> assets/xenorra-bespoke-developers.webp
+profile.html -> assets/xenorra-bespoke-profile.webp
+
+Upload extracted files, not ZIP, to repository root. Vercel must deploy the same commit. This package was statically checked, not browser-tested.
