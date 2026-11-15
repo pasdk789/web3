@@ -1,0 +1,2 @@
+Site-wide hero artwork CSS repair. Pages covered: page-thread, page-events, page-notifications, page-members, page-research, page-ai, page-forum, page-technology, page-xnr, page-governance, page-roadmap, page-identity, page-protocol, page-index, page-settings, page-dashboard, page-developers, page-profile
+All corresponding WebP files are packaged. Upload entire extracted site to GitHub root. Verify on Vercel after deployment.

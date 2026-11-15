@@ -1,0 +1,1 @@
+XNR image fix: deploy xnr.html, assets/xenorra-xnr-image-repair.css and assets/xenorra-bespoke-xnr.webp together. Check the live image URL for HTTP 200 after Vercel deployment. Other pages are included unchanged.
