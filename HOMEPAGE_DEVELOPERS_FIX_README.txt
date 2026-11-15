@@ -1,0 +1,1 @@
+Homepage and Developers heroes: one background-positioned image, headline and CTA overlaid at left, full-width hero. No image in normal document flow. Other pages unchanged. Static verification only; no browser render test.

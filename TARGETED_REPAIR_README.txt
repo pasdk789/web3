@@ -1,0 +1,1 @@
+AI, XNR, Forum: embedded artwork in each HTML document and explicit layered positioning. Full site included. Not browser-verified.\n
