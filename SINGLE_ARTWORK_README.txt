@@ -1,0 +1,1 @@
+Fixed 18 illustrated pages. Removed duplicate pseudo-element artwork and inline background variable, leaving one image per hero. Forum embedded image retained. Mobile artwork stays fully visible. Live browser test not performed.\n
