@@ -1,0 +1,1 @@
+Developers hero image now positioned behind text as a single full-width composition. Only developers.html changed; all other website files and artwork are unchanged. Embedded image makes developers artwork independent of asset serving. Live browser rendering not verified.
